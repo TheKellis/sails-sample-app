@@ -149,7 +149,7 @@ module.exports = {
     ***************************************************************************/
     cors: {
       allowOrigins: [
-        'http://54.215.120.233',
+        'http://sails-24efbc180e7dd5e0.elb.us-west-1.amazonaws.com',
       ]
     },
 
@@ -373,7 +373,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'http://54.215.120.233',
+    baseUrl: 'http://sails-24efbc180e7dd5e0.elb.us-west-1.amazonaws.com',
     internalEmailAddress: 'support@example.com',
 
     // sendgridSecret: 'SG.fake.3e0Bn0qSQVnwb1E4qNPz9JZP5vLZYqjh7sn8S93oSHU',
