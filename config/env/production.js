@@ -148,9 +148,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+      allowOrigins: [
+        'https://flagrantfox.com',
+      ]
     },
 
   },
@@ -252,6 +252,7 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'https://flagrantfox.com',
+      'http://flagrantfox.com',
       'https://staging.example.com',
     ],
 
@@ -374,7 +375,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://flagrantfox.com',
+    baseUrl: 'flagrantfox.com',
     internalEmailAddress: 'support@example.com',
 
     // sendgridSecret: 'SG.fake.3e0Bn0qSQVnwb1E4qNPz9JZP5vLZYqjh7sn8S93oSHU',
